@@ -31,5 +31,22 @@ namespace WF_login
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FormPrincipal().Show();
+        }
+
+        private void FormProdutos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FormPrincipal().Show();
+        }
     }
 }

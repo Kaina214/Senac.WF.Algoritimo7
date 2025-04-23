@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WF_login
 {
-    public partial class FormEntrega : Form
+    public partial class FormPrincipal : Form
     {
-        public FormEntrega()
+        public FormPrincipal()
         {
             InitializeComponent();
         }
@@ -30,6 +30,12 @@ namespace WF_login
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FormProdutos().ShowDialog();
         }
     }
 }

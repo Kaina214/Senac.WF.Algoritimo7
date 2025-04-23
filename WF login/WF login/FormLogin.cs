@@ -1,10 +1,10 @@
 namespace WF_login
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
         public object Aplication { get; private set; }
 
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
         }

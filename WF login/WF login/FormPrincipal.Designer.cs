@@ -1,6 +1,6 @@
 ﻿namespace WF_login
 {
-    partial class FormCliente
+    partial class FormPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEntrega));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             panel1 = new Panel();
+            button2 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button1 = new Button();
+            button7 = new Button();
             panel2 = new Panel();
             panel3 = new Panel();
-            button7 = new Button();
-            button1 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            pictureBox1 = new PictureBox();
             label1 = new Label();
+            pictureBox1 = new PictureBox();
             label2 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
-            button2 = new Button();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -64,72 +64,22 @@
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
-            // panel2
+            // button2
             // 
-            panel2.BackColor = Color.Red;
-            panel2.Location = new Point(298, 0);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(517, 10);
-            panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Red;
-            panel3.Controls.Add(label1);
-            panel3.Controls.Add(pictureBox1);
-            panel3.Location = new Point(352, 9);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(116, 130);
-            panel3.TabIndex = 2;
-            // 
-            // button7
-            // 
-            button7.BackColor = Color.Black;
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Rockwell", 12F, FontStyle.Italic);
-            button7.ForeColor = Color.White;
-            button7.Image = (Image)resources.GetObject("button7.Image");
-            button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(-2, 3);
-            button7.Name = "button7";
-            button7.Size = new Size(294, 108);
-            button7.TabIndex = 0;
-            button7.Text = "Começo";
-            button7.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Black;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Rockwell", 12F, FontStyle.Italic);
-            button1.ForeColor = Color.White;
-            button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(0, 117);
-            button1.Name = "button1";
-            button1.Size = new Size(294, 83);
-            button1.TabIndex = 0;
-            button1.Text = "Produtos";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = Color.Black;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Rockwell", 12F, FontStyle.Italic);
-            button3.ForeColor = Color.White;
-            button3.Image = (Image)resources.GetObject("button3.Image");
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(6, 206);
-            button3.Name = "button3";
-            button3.Size = new Size(294, 75);
-            button3.TabIndex = 0;
-            button3.Text = "Clientes";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            button2.BackColor = Color.Black;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Rockwell", 12F, FontStyle.Italic);
+            button2.ForeColor = Color.White;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.Location = new Point(12, 281);
+            button2.Name = "button2";
+            button2.Size = new Size(294, 68);
+            button2.TabIndex = 0;
+            button2.Text = "Pagto";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button4_Click;
             // 
             // button4
             // 
@@ -148,6 +98,83 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Black;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Rockwell", 12F, FontStyle.Italic);
+            button3.ForeColor = Color.White;
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.Location = new Point(6, 206);
+            button3.Name = "button3";
+            button3.Size = new Size(294, 75);
+            button3.TabIndex = 0;
+            button3.Text = "Clientes";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Black;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Rockwell", 12F, FontStyle.Italic);
+            button1.ForeColor = Color.White;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(0, 117);
+            button1.Name = "button1";
+            button1.Size = new Size(294, 83);
+            button1.TabIndex = 0;
+            button1.Text = "Produtos";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.Black;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Font = new Font("Rockwell", 12F, FontStyle.Italic);
+            button7.ForeColor = Color.White;
+            button7.Image = (Image)resources.GetObject("button7.Image");
+            button7.ImageAlign = ContentAlignment.MiddleLeft;
+            button7.Location = new Point(-2, 3);
+            button7.Name = "button7";
+            button7.Size = new Size(294, 108);
+            button7.TabIndex = 0;
+            button7.Text = "Começo";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Red;
+            panel2.Location = new Point(298, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(517, 10);
+            panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Red;
+            panel3.Controls.Add(label1);
+            panel3.Controls.Add(pictureBox1);
+            panel3.Location = new Point(352, 9);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(116, 130);
+            panel3.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(16, 96);
+            label1.Name = "label1";
+            label1.Size = new Size(97, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Senacfood";
+            // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = Properties.Resources._3558116_fast_food_french_fries_snacks_icon;
@@ -159,15 +186,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(16, 96);
-            label1.Name = "label1";
-            label1.Size = new Size(97, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Senacfood";
             // 
             // label2
             // 
@@ -196,23 +214,6 @@
             pictureBox3.Size = new Size(60, 54);
             pictureBox3.TabIndex = 5;
             pictureBox3.TabStop = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Black;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Rockwell", 12F, FontStyle.Italic);
-            button2.ForeColor = Color.White;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(12, 281);
-            button2.Name = "button2";
-            button2.Size = new Size(294, 68);
-            button2.TabIndex = 0;
-            button2.Text = "Pagto";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button4_Click;
             // 
             // FormPrincipal
             // 
@@ -254,5 +255,6 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private Button button2;
+        private Button button5;
     }
 }
