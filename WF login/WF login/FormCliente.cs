@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WF_login
 {
-    public partial class FormPrincipal : Form
+    public partial class FormEntrega : Form
     {
-        public FormPrincipal()
+        public FormEntrega()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace WF_login
 {
-    partial class FormPrincipal
+    partial class FormCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEntrega));
             panel1 = new Panel();
             panel2 = new Panel();
             panel3 = new Panel();

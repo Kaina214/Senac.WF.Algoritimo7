@@ -1,6 +1,6 @@
 ﻿namespace WF_login
 {
-    partial class Form
+    partial class FormProdutos
     {
         /// <summary>
         /// Required designer variable.
